@@ -1,0 +1,179 @@
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 60px;
+  width: auto;
+}
+
+.header-content {
+  text-align: center;
+  margin-top: 80px; /* creates space for the logo */
+}
+
+.header-content h1 {
+  font-size: 3rem; /* or try 3.5rem if you want it really bold */
+  font-weight: 700;
+}
+
+.header-content p {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f8fafc, #e2e8f0);
+  color: #1f2937;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.top-nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.top-nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.hero {
+  position: relative;
+  background-image: url("images/power_of_automation.png"); /* Use your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Darken the image slightly for better text contrast */
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+
+.hero p {
+  font-size: 1.1rem;
+  color: #4b5563;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px auto;
+  max-width: 1200px;
+}
+
+.feature-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+  max-width: 360px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;           /* Fix UL alignment */
+  justify-content: flex-start;    /* Align everything from the top */
+  min-height: 500px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box img {
+  width: 100%;
+  height: auto;                   /* Allow natural height */
+  max-height: 180px;             /* Still limits it visually */
+  object-fit: contain;           /* Prevents cropping */
+  border-radius: 8px;
+  margin-bottom: 10px;           /* Less space below image */
+}
+
+.feature-box h3 {
+  margin-bottom: 8px;            /* Less space between h3 and ul */
+  color: #1f2937;
+  font-size: 1.2rem;
+}
+
+.feature-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  flex-grow: 1;                  /* Stretch to keep alignment */
+}
+
+.feature-box li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.feature-box li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: #3b82f6;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #f1f5f9;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-top: 40px;
+}
