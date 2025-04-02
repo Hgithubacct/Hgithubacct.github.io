@@ -169,6 +169,62 @@ header p {
   font-size: 1.2rem;
 }
 
+.feature-box ul ul {
+  margin-left: 20px;        /* Tabs them in */
+  list-style-type: none;  /* Changes bullet to square */
+  margin-top: 5px;
+}
+
+.feature-box ul ul li {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #1f2937;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #374151;
+}
+
+.contact-section {
+  padding-top: 80px; /* or more depending on your header height */
+}
+
+
 footer {
   background-color: #f1f5f9;
   text-align: center;
